@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Terminal chat server side
 
-Console.WriteLine("Hello, World!");
+using server;
+
+Server server = new Server();
+
+server.StartServer();
